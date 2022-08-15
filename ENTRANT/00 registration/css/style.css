@@ -23,3 +23,23 @@ body {
 	font-size: 120px;
 	text-shadow: 3px 2px 20px gray;
 }
+
+.block-header__ui-list {
+	display: flex;
+	flex: 1 0 auto;
+	align-items: center;
+}
+
+.block-header-ui-list {
+	list-style: none;
+	background-color: #442203;
+}
+
+.block-header-ui-list__item {
+
+}
+
+.block-header-ui-list__btn {
+	font-size: 60px;
+	cursor: pointer;
+}
