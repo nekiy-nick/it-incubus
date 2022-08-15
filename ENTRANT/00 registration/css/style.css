@@ -3,6 +3,23 @@
 	padding: 0;
 }
 
+/*vars*/
+:root {
+	--main-text-color: hsla(90, 150%, 113%, .4);
+	--bg-color-main: wheat;
+}
+
 body {
 	background-color: pink;
+}
+
+.block-header {
+	display: flex;
+	padding: 12px 18px;
+	background-color: var(--bg-color-main);
+}
+
+.block-header__logotype {
+	font-size: 120px;
+	text-shadow: 3px 2px 20px gray;
 }
