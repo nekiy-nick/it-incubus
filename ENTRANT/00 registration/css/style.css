@@ -43,3 +43,12 @@ body {
 	font-size: 60px;
 	cursor: pointer;
 }
+
+
+.rabbit-body {
+	width: 100px;
+	height: 100px;
+	background-color: coral;
+	border-radius: 50%;
+	border: 5px solid #333;
+}
