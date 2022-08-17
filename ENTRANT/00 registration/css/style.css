@@ -19,10 +19,6 @@ body {
 	background-color: var(--bg-color-main);
 }
 
-.block-header__logotype {
-	font-size: 120px;
-	text-shadow: 3px 2px 20px gray;
-}
 
 .block-header__ui-list {
 	display: flex;
@@ -44,11 +40,24 @@ body {
 	cursor: pointer;
 }
 
-
 .rabbit-body {
+	background-color: hsla(15, 20%, 20%, .5	);
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+.rabbit-body__head {
+	font-size: 120px;
+	text-shadow: 3px 2px 20px gray;
+}
+
+.rabbit-body__belly {
 	width: 100px;
 	height: 100px;
 	background-color: coral;
 	border-radius: 50%;
-	border: 5px solid #333;
+	/*border: 5px solid #333;*/
+
+	transition: width .4s ease-in-out;
 }
