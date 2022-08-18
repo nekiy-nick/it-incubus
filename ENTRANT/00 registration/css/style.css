@@ -11,6 +11,11 @@
 
 body {
 	background-color: pink;
+	transition: background-color .2s ease-in-out;
+}
+
+.body_blood {
+	background-color: darkred;
 }
 
 .block-header {

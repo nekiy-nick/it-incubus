@@ -6,8 +6,11 @@ const rabbitBody = document.querySelector('.rabbit-body__belly');
 
 const letsFatRabbit = function(plusFat) {
 	let widthRabbit = rabbitBody.offsetWidth;
-	if (widthRabbit > 110) rabbitBody.style.width = '0px';
-	alert(plusFat)
+	if (widthRabbit > 110) {
+		rabbitBody.style.width = '0px';
+		document.body.classList.add('body_blood');
+	}
+
 	rabbitBody.style.width += +widthRabbit + +plusFat + 'px';
 };
 
@@ -16,7 +19,7 @@ carrotBtnList.forEach( (item) => {
 
 		let itemBall = item.dataset.point;
 
-		letsFatRabbit(itemBall)
+		letsFatRabbit(itemBall);
 	})
 });
 
