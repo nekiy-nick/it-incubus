@@ -10,8 +10,15 @@
 }
 
 body {
+	display: flex;
+	flex-flow: column wrap;
+	height: 100%;
 	background-color: pink;
 	transition: background-color .2s ease-in-out;
+}
+
+main {
+	flex: 1 0 auto;
 }
 
 .body_blood {
@@ -65,4 +72,12 @@ body {
 	/*border: 5px solid #333;*/
 
 	transition: width .4s ease-in-out;
+}
+
+.block-footer {
+	flex: 0 0 auto;
+}
+
+.block-footer__paragraph {
+	text-align: center;
 }
